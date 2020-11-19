@@ -1,0 +1,16 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js "></script>
+<h1>IMAGE FILTER website//by NAVRAJ KHANAL credits (coursera)</h1>
+<P>This website provides user to upload image and apply various image filters<p>
+<canvas id="c1">
+</canvas>
+
+<p>UPLOAD IMAGE :
+  <input type="file"  accept="image/*" multiple="false" id="im" onchange="uploadim()">
+<p><h2>CHOOSE THE FILTER YOU WANT TO APPLY</h2>
+
+<input type="button" value="grayscale"   id="e1" onclick="makegray()">
+  <input type="button" value="red filter"   id="e2" onclick="makered()">
+  <input type="button" value="rainbow filter"   id="e3" onclick="makerb()">
+   <input type="button" value="blur"   id="e4" onclick="makebl()">
+   <input type="button" value="invert colours"   id="e5" onclick="makein()">
+  <input type="button" value="Reset image"   id="cl" onclick="resetim()">
